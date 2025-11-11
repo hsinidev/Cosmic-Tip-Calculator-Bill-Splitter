@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Tip Calculator & Bill Splitter</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Effortlessly calculate tips and split bills with our modern, user-friendly Cosmic Tip Calculator. Features a stunning animated galaxy theme, rounding options, and a comprehensive guide to tipping etiquette." />
+    <meta name="keywords" content="tip calculator, bill splitter, tipping, gratuity calculator, restaurant tip, split the bill, financial tool, dining etiquette" />
+    <link rel="canonical" href="https://cosmic-tip-calculator.example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cosmic-tip-calculator.example.com/" />
+    <meta property="og:title" content="Cosmic Tip Calculator & Bill Splitter" />
+    <meta property="og:description" content="Effortlessly calculate tips and split bills with our modern, user-friendly Cosmic Tip Calculator. Features a stunning animated galaxy theme, rounding options, and a comprehensive guide to tipping etiquette." />
+    <meta property="og:image" content="https://cosmic-tip-calculator.example.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cosmic-tip-calculator.example.com/" />
+    <meta property="twitter:title" content="Cosmic Tip Calculator & Bill Splitter" />
+    <meta property="twitter:description" content="Effortlessly calculate tips and split bills with our modern, user-friendly Cosmic Tip Calculator. Features a stunning animated galaxy theme, rounding options, and a comprehensive guide to tipping etiquette." />
+    <meta property="twitter:image" content="https://cosmic-tip-calculator.example.com/twitter-image.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes move-bg {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .cosmic-background {
+        background: linear-gradient(
+          -45deg,
+          #0f0c29,
+          #302b63,
+          #24243e,
+          #1c1c3c,
+          #3a3a5e
+        );
+        background-size: 400% 400%;
+        animation: move-bg 30s ease infinite;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="cosmic-background text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
